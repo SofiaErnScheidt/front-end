@@ -1,0 +1,43 @@
+
+       *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins', sans-serif;
+        }
+
+        body{
+        height: 100vh;
+        background: linear-gradient(135deg, #77c1df, #a6e0f7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container{
+        background: #ffffff;
+        padding: 40px 30px;
+        width: 300%;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+    }
+
+    .login input{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+
+    .login h2{
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+        .login button{
+            width: 100%;
+            padding: 12px;
+        }
